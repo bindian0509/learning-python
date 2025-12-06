@@ -1,0 +1,22 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment / local config
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# IDE / tooling
+.pytest_cache/
+.coverage
+htmlcov/
+.cursor/
+
