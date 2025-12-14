@@ -19,7 +19,7 @@ def home():
             "Industry exposure across fintech, e-commerce, expert networks, and SaaS; experienced in microservices and legacy-to-service migrations.",
             "Conscientious, empathetic leadership style focused on delegation, motivation, and career growth.",
         ],
-        "last_updated": "Nov 2025",
+        "last_updated": "Dec 2025",
     }
 
     skills = [
@@ -71,7 +71,7 @@ def home():
             "company": "Razorpay Software Pvt Ltd.",
             "role": "Senior Engineering Manager – Card Recurring & E-mandate, Card Growth",
             "location": "Bengaluru (Hybrid)",
-            "dates": "03/2025 – Present",
+            "dates": "Mar 2025 – Present",
             "highlights": [
                 "Own recurring/e-mandate transactions and card growth teams with partner integrations.",
                 "Lead re-architecture initiatives aligned to SaCRED priorities (security, reliability, efficiency, innovation).",
@@ -82,7 +82,7 @@ def home():
             "company": "Guidepoint Global",
             "role": "Director, Software Engineering – India Engineering Pods",
             "location": "Pune (Hybrid)",
-            "dates": "06/2023 – 02/2025",
+            "dates": "Jun 2023 – Feb 2025",
             "highlights": [
                 "Modernized CRM, advisor, and client portals by moving to microservices.",
                 "Completed PHP 8 transformation for SOC2 compliance within two months of joining.",
@@ -94,7 +94,7 @@ def home():
             "company": "Acquia",
             "role": "Manager, Engineering – Cloud Data and ACN Upgrades",
             "location": "Pune (Remote)",
-            "dates": "02/2021 – 06/2023",
+            "dates": "Feb 2021 – Jun 2023",
             "highlights": [
                 "Hired and developed high-performing SDE and SDET teams across experience bands.",
                 "Delivered ~660K COGS savings by migrating customers from Cloud Classic to ACN.",
@@ -104,8 +104,8 @@ def home():
         {
             "company": "One MobiKwik Systems Private Limited",
             "role": "Java Tech Lead (Architect) and Engineering Manager",
-            "location": "Gurgaon",
-            "dates": "11/2016 – 02/2021",
+            "location": "Gurgaon - Onsite",
+            "dates": "Nov 2016 – Feb 2021",
             "highlights": [
                 "Built hotels backend, admin dashboard, schedulers, and customer ops tools in three months; integrated Cleartrip inventory.",
                 "Shifted payment flow from wallet-only to wallet-as-payment gateway to meet new RBI guidelines.",
@@ -116,8 +116,8 @@ def home():
         {
             "company": "Clues Network Private Limited",
             "role": "Staff Software Engineer (TLM, Catalogue Team)",
-            "location": "Gurgaon",
-            "dates": "09/2015 – 11/2016",
+            "location": "Gurgaon - Onsite",
+            "dates": "Sep 2015 – Nov 2016",
             "highlights": [
                 "Raised new product creation throughput from 30K/day to 100K/day via bulk upload.",
                 "Moved product CRUD to RESTful services with dedicated inventory API using PHP Phalcon.",
@@ -127,8 +127,8 @@ def home():
         {
             "company": "InfoEdge (India) Public Limited",
             "role": "Senior Software Engineer and Lead Engineer",
-            "location": "Noida",
-            "dates": "11/2011 – 05/2015",
+            "location": "Noida - Onsite",
+            "dates": "Nov 2011 – May 2015",
             "highlights": [
                 "Refactored FastForward team stack from legacy Symfony to 2.x and championed Agile + Git.",
                 "Built Naukri Background Check and Priority Application products from scratch.",
@@ -139,8 +139,8 @@ def home():
         {
             "company": "Comviva Technologies",
             "role": "Software Engineer",
-            "location": "Gurgaon",
-            "dates": "12/2009 – 03/2011",
+            "location": "Gurgaon - Onsite",
+            "dates": "Dec 2009 – Mar 2011",
             "highlights": [
                 "Developed PreTUPS (prepaid top-up system) serving 50+ global telecom clients.",
                 "Managed version 4.x for major Indian clients (Idea, Vodafone, Aircel) and acted as onsite SPOC.",
@@ -151,14 +151,8 @@ def home():
     education = [
         {
             "school": "Jamia Millia Islamia, Central University, New Delhi",
-            "years": "2005 – 2009",
             "degree": "B.Tech, Computer Engineering",
-        },
-        {
-            "school": "SKD Academy Inter College, Lucknow (U.P. Board)",
-            "years": "2002 – 2004",
-            "degree": "Higher Secondary, Physics · Chemistry · Maths",
-        },
+        }
     ]
 
     languages = [
@@ -169,7 +163,7 @@ def home():
 
     return render_template(
         "index.html",
-        title="Bharat Verma | Engineering Leader",
+        title="Bharat Verma | Engineering Leader | 2025-2026",
         profile=profile,
         skills=skills,
         experience=experience,
