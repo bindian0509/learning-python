@@ -10,8 +10,7 @@ def home():
     profile = {
         "name": "Bharat Verma",
         "headline": "Director / Senior Engineering Leader · Microservices · Payments · Cloud",
-        "location": "Pune, MH, India",
-        "phone": "+91-9560452567",
+        "location": "West India",
         "email": "bharatv@outlook.in",
         "linkedin": "https://www.linkedin.com/in/bharatverma/",
         "summary": [
