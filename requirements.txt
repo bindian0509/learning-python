@@ -1,2 +1,6 @@
 Flask>=3.0
 
+# FastAPI and dependencies for crash course
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+pydantic>=2.0.0
