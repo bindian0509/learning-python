@@ -4,3 +4,15 @@ Flask>=3.0
 fastapi>=0.100.0
 uvicorn[standard]>=0.23.0
 pydantic>=2.0.0
+email-validator>=2.0.0
+
+# Data / plotting scripts (salaries-post-tax.py)
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Web scraping (print-secret-message.py)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+
+# Architecture diagrams (diagram.py) - also needs system graphviz
+diagrams>=0.23.0
